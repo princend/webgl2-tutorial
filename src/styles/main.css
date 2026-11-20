@@ -179,6 +179,37 @@ body {
   color: #cbd5e1;
 }
 
+.hud-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.hud-btn {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(30, 41, 59, 0.9);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.16s ease, background 0.16s ease, color 0.16s ease;
+}
+
+.hud-btn:hover {
+  border-color: var(--accent);
+  background: rgba(56, 189, 248, 0.16);
+}
+
+.hud-btn.active {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.18);
+  color: #fde68a;
+}
+
 .error-overlay {
   position: fixed;
   inset: auto 16px 16px 16px;
