@@ -13,8 +13,8 @@ npm run dev
 
 ## 課程進度
 
-- [ ] **第 1 課**：WebGL 2.0 核心概念與第一個彩色三角形（`src/lessons/01-triangle`）
-- [ ] **第 2 課**：著色器資料傳遞（Uniform / EBO）與動態動畫
+- [x] **第 1 課**：WebGL 2.0 核心概念與第一個彩色三角形（`src/lessons/01-triangle`）
+- [ ] **第 2 課**：著色器資料傳遞（Uniform / EBO）與動態動畫（`src/lessons/02-uniform-ebo`）
 - [ ] **第 3 課**：座標系統與 2D 矩陣變換
 - [ ] **第 4 課**：紋理貼圖（Texture）與影像濾鏡實作
 - [ ] **第 5 課**：3D 空間、透視投影（MVP）與深度測試

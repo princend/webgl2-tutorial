@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         lesson01: resolve(__dirname, 'src/lessons/01-triangle/index.html'),
+        lesson02: resolve(__dirname, 'src/lessons/02-uniform-ebo/index.html'),
       },
     },
   },
